@@ -1,0 +1,93 @@
+*{
+    box-sizing: content-box;
+    font-family: calibri;
+}
+header{
+    display: flex;
+    height: 60px;
+    border: 1px solid black;
+}
+.nav-list{
+    height: 60px;
+    display: flex;
+    float: left;
+}
+.nav-list li{
+    display: flex;
+}
+.nav-list li a{
+    text-decoration: none;
+    margin-top: -10px;
+}
+.profile a img{
+    border-radius: 50%;
+}
+.nav-right{
+    /* border: 1px solid red; */
+    display: flex;
+    float: right;
+}
+.nav-right li{
+    display: inline-block;
+    padding: 10px;
+    height: fit-content;
+}
+.A{
+    display: flexbox;
+    float: left;
+    border: 1 px solid green;
+    margin: 100px;
+}
+.font-main{
+    font-size: 50px;
+    text-align: justify;
+}
+.font-sec{
+    font-size: 20px;
+    font-family: calibri;
+    color: rgb(78, 70, 70);
+}
+.btn{
+    font-size: large;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(63, 63, 194);
+    border-radius: 5px;
+    color: white;
+    box-shadow: none;
+}
+.join{
+    font-size: large;
+    height: 40px;
+    width: 250px;
+    margin-left: 20px;
+}
+.hr-margin{
+    margin-top: 50px;
+}
+.B{
+    display: flexbox;
+    float: right;
+    /* border: 1px solid pink; */
+    margin-right: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+.font-th{
+    font-size: 25px;
+}
+main{
+    display: flexbox;
+    /* flex-direction: column; */
+}
+.last-line{
+    margin-left: 100px;
+    font-size: 18px;
+}
+.last-line a{
+    text-decoration: none;
+    color: rgb(66, 66, 202);
+}
+.last-line a:hover{
+    text-decoration: underline;
+}
