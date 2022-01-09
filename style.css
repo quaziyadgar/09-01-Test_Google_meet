@@ -7,6 +7,29 @@ header{
     height: 60px;
     /* border: 1px solid black; */
 }
+.meet{
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+.time{
+    margin-top: -5px;
+}
+.question{
+    margin-top: -25px;
+}
+.message{
+    margin-top: -15px;
+}
+.setting{
+    margin-top: -28px;
+}
+.menu{
+    margin-top: -18px;
+}
+.profile{
+    margin-top: -20px;
+}
 .nav-list{
     height: 60px;
     display: flex;
