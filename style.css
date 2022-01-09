@@ -55,12 +55,12 @@ header{
 .nav-right{
     /* border: 1px solid red; */
     display: flex;
-    float: right;
+    
 }
 .nav-right li{
     display: inline-block;
     padding: 10px;
-    height: fit-content;
+    /* height: fit-content; */
 }
 .A{
     display: flexbox;
