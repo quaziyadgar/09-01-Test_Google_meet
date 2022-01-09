@@ -5,7 +5,7 @@
 header{
     display: flex;
     height: 60px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .nav-list{
     height: 60px;
